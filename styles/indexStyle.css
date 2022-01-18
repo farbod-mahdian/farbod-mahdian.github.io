@@ -113,7 +113,9 @@ a {
 }
 
 #saveBtn:hover,
-#websiteBtn:hover {
+#saveBtn:active,
+#websiteBtn:hover,
+#websiteBtn:active {
   background-color: #855d12;
   border-color: #855d12;
   color: white;
