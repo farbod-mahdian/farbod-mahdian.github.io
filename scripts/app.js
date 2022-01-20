@@ -3,7 +3,7 @@ const websiteBtn = document.getElementById('websiteBtn');
 
 saveBtn.addEventListener('click', () => {
   window.open(
-    'https://farbod-mahdian.github.io/vahidshahsavan.vcf'
+    'https://farbod-mahdian.github.io/VahidShahsavan.vcf'
   );
 });
 
