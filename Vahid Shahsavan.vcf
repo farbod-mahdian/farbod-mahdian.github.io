@@ -1,0 +1,28 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iOS 15.0.2//EN
+N:Shahsavan;Vahid;;;
+FN:Vahid Shahsavan
+TITLE:Mutual Fund Reperesentive & Insurance Agent
+EMAIL;type=INTERNET;type=WORK;type=pref:shahsavan.team@gmail.com
+EMAIL;type=INTERNET;type=WORK:info@shahsavan.team
+EMAIL;type=INTERNET;type=WORK:shahsavan@gmail.com
+TEL;type=CELL;type=VOICE;type=pref:+16475265691
+TEL;type=WORK;type=VOICE:+16475567834
+TEL;type=WORK;type=FAX:+16474981196
+item1.ADR;type=WORK;type=pref:;;675 Chochrane Drive\, East Tower\, 6th floo
+ r;Markham;ON;L3R 0B8;Canada
+item2.URL;type=pref:https://shahsavan.team
+item2.X-ABLabel:Website
+item3.URL:https://shahsavan.team/cfs
+item3.X-ABLabel:Website
+X-SOCIALPROFILE;type=Instagram;x-user=vahid_shahsavan:https://www.instagram
+ .com/vahid_shahsavan
+X-SOCIALPROFILE;type=linkedin;x-user=vahidshahsavan:https://www.linkedin.co
+ m/in/vahidshahsavan
+X-SOCIALPROFILE;type=facebook;x-user=vahid.shahsavan:https://www.facebook.c
+ om/vahid.shahsavan
+X-SOCIALPROFILE;type=zoom;x-user=6475265691:https://us02web.zoom.us/j/
+ 6475265691
+REV:2022-01-20T00:16:57Z
+END:VCARD
