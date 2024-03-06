@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #65945F;
+    animation: 1s ease-out 0s 1 slideInFromBottom;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+}
+
+.project > img {
+    margin-bottom: 5px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: solid #E27E01 5px;
+}
+
+.project > a {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #583100;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.project > a:hover {
+    background-color: #E27E01;
+    padding: 8px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.skill > img {
+    margin-bottom: 5px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.skill_name > h3{
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.bar_outline {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0 10px;
+    width: 600px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.skill_name {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar_level {
+    display: flex;
+    background-color: #14B102;
+    border-radius: 20px;
+    width: calc(var(--level) * 60px);
+    height: 30px;
+}
+
+.social {
+    width: 70px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    border: solid white 1px;
+}
+
+.social:hover {
+    border: solid white 5px;
+}
+
+#header_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #65945F;
+    animation: 1s ease-out 0s 1 slideInFromTop;
+}
+
+#skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+#projects {
+    display: flex;
+    background-image: url("asset\\it_computer_programming.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#about_me__sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+#profile_pic {
+    border-radius: 50%;
+    width: 200px;
+    margin-right: 40px;
+    border: #14B102 solid 2px;
+}
+
+#my_name {
+    color: white;
+    font-size: 30px;
+}
+
+#career {
+    color: black;
+    text-align: center;
+    border-top: solid black 1px;
+}
+
+#about_me {
+    padding: 10px;
+    width: 900px;
+    border-top: solid white;
+}
+
+#linkedin {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
