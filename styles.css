@@ -142,7 +142,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("asset\\it_computer_programming.jpg");
+    background-image: url("asset\it_computer_programming.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
